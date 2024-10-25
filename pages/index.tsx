@@ -38,7 +38,7 @@ export default function Component() {
       <Head>
         <title>小李同学 Coding</title>
         <meta name="description" content="热爱可抵岁月漫长" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/qq-official.ico" />
       </Head>
       <div className="bg-[#f6f7f8] dark:bg-[#1e2020] transition-colors duration-300 min-w-[375px] min-h-[100vh] flex flex-col justify-between items-center p-4">
         <div className="flex-grow flex items-center">
@@ -46,13 +46,13 @@ export default function Component() {
             <div className="flex justify-center items-center">
               <img
                 className="w-[256px] h-[256px] rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
-                src="https://picsur.xxfer.cn/i/b0b3e92c-15fa-4570-b22f-9ce0ec418601.webp"
+                src="/img/qq-official-qr.jpg"
                 alt="QR Code"
               />
             </div>
             <div className="mt-4 mb-6 text-[15px] text-center text-black/60 dark:text-white/60 font-medium">扫描二维码关注我</div>
             <div className="w-full flex items-center p-4 rounded-[14px] bg-[#f7f7f7] dark:bg-[#303134] transition-colors duration-300 hover:bg-[#f0f0f0] dark:hover:bg-[#3a3a3d]">
-              <img className="w-[56px] h-[56px] mr-4 rounded-full shadow-sm" src="/img/vx-official.jpg" alt="Profile Picture" />
+              <img className="w-[56px] h-[56px] mr-4 rounded-full shadow-sm" src="/img/qq-official.jpg" alt="Profile Picture" />
               <div className="flex flex-col justify-between">
                 <div className="font-bold text-lg text-black dark:text-white">小李同学 Coding</div>
                 <div className="text-[14px] text-black/60 dark:text-white/60 mt-1">热爱可抵岁月漫长</div>
