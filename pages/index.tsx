@@ -40,7 +40,7 @@ export default function Component() {
         <meta name="description" content="热爱可抵岁月漫长" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="bg-gray-200 dark:bg-gray-900 transition-colors duration-300 min-w-[375px] min-h-[100vh] flex flex-col justify-between items-center p-4">
+      <div className="bg-[#f6f7f8] dark:bg-[#1e2020] transition-colors duration-300 min-w-[375px] min-h-[100vh] flex flex-col justify-between items-center p-4">
         <div className="flex-grow flex items-center">
           <div className="p-8 rounded-[24px] bg-white/80 dark:bg-black/80 backdrop-blur-md shadow-lg transition-all duration-300 hover:shadow-xl animate-float">
             <div className="flex justify-center items-center">
