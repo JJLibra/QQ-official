@@ -61,33 +61,33 @@ export default function Component() {
             </div>
           </div>
         </div>
-        <div className="mt-4 p-1 bg-gray-200 dark:bg-gray-800 rounded-lg flex space-x-1">
+        <div className="mt-4 flex rounded-full">
           <button
             onClick={() => toggleTheme('light')}
-            className={`p-2 rounded-md transition-colors duration-200 ${
-              theme === 'light' ? 'bg-gray-300 text-gray-800' : 'bg-gray-700 text-gray-200'
+            className={`p-1.5 rounded-full transition-colors duration-200 ${
+              theme === 'light' ? 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white' : 'text-gray-400'
             }`}
             aria-label="Light mode"
           >
-            <Sun size={20} className="text-current" />
+            <Sun size={18} className="text-current" />
           </button>
           <button
             onClick={() => toggleTheme('system')}
-            className={`p-2 rounded-md transition-colors duration-200 ${
-              theme === 'system' ? 'bg-gray-300 text-gray-800' : 'bg-gray-700 text-gray-200'
+            className={`p-1.5 rounded-full transition-colors duration-200 ${
+              theme === 'system' ? 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white' : 'text-gray-400'
             }`}
             aria-label="System preference"
           >
-            <Monitor size={20} className="text-current" />
+            <Monitor size={18} className="text-current" />
           </button>
           <button
             onClick={() => toggleTheme('dark')}
-            className={`p-2 rounded-md transition-colors duration-200 ${
-              theme === 'dark' ? 'bg-gray-300 text-gray-800' : 'bg-gray-700 text-gray-200'
+            className={`p-1.5 rounded-full transition-colors duration-200 ${
+              theme === 'dark' ? 'bg-gray-200 dark:bg-gray-700 text-black dark:text-white' : 'text-gray-400'
             }`}
             aria-label="Dark mode"
           >
-            <Moon size={20} className="text-current" />
+            <Moon size={18} className="text-current" />
           </button>
         </div>
       </div>
