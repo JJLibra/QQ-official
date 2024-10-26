@@ -53,7 +53,11 @@ export default function Component() {
             </div>
             <div className="mt-4 mb-6 text-[15px] text-center text-black/60 dark:text-white/60 font-medium">扫描二维码关注我</div>
             <div className="w-full flex items-center p-4 rounded-[14px] bg-[#f7f7f7] dark:bg-[#303134] transition-colors duration-300 hover:bg-[#f0f0f0] dark:hover:bg-[#3a3a3d]">
-              <img className="w-[56px] h-[56px] mr-4 rounded-full shadow-sm" src="/img/qq-official.jpg" alt="Profile Picture" />
+              <img 
+                className="w-[56px] h-[56px] mr-4 rounded-full shadow-sm" 
+                src={`https://q1.qlogo.cn/g?b=qq&nk=2565474095&s=640&t=${new Date().getTime()}`} 
+                alt="Profile Picture" 
+              />
               <div className="flex flex-col justify-between">
                 <div className="font-bold text-lg text-black dark:text-white">小李同学 Coding</div>
                 <div className="text-[14px] text-black/60 dark:text-white/60 mt-1">热爱可抵岁月漫长</div>
