@@ -1,4 +1,3 @@
-// pages/index.tsx
 import React, { useState, useEffect } from 'react'
 import { Sun, Moon, Monitor } from 'lucide-react'
 import Head from 'next/head'
