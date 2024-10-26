@@ -10,6 +10,8 @@ export default function Component() {
     const savedTheme = localStorage.getItem('theme')
     if (savedTheme) {
       setTheme(savedTheme)
+    } else {
+      setTheme('system')
     }
     applyTheme(savedTheme || 'system')
   }, [])
